@@ -1,0 +1,114 @@
+body {
+	font-family: "Nunito", sans-serif;
+	background-color: #12263f;
+	min-height: 100vh;
+}
+
+.bg-custom {
+	background-color: #12263f;
+	color: #fff;
+}
+
+.text-error {
+	letter-spacing: .08em;
+}
+
+/* components */
+
+.btn-custom {
+	background-color: #152e4d;
+	color: white;
+	border-color: #244166;
+}
+
+.btn-custom:hover {
+	background-color: #0f2541;
+	color: white;
+}
+
+.card-custom,
+.modal-custom {
+	background-color: #152e4d;
+	border-color: #152e4d;
+	margin-bottom: 1.5rem;
+}
+
+.modal-custom .modal-header {
+	display: flex;
+	align-items: center;
+	padding: .5rem 1.5rem;
+	height: 60px;
+	color: #fff;
+	border-bottom: 0px;
+	background-color: transparent;
+}
+
+.modal-custom .modal-header .modal-title {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.modal-custom .modal-body {
+	border-top: 1px solid #1e3a5c;
+}
+
+.modal-custom .modal-footer {
+	border-top: 1px solid #1e3a5c;
+}
+
+.card-custom .card-header {
+	padding: 1.3rem 1.5rem;
+	border-bottom: 1px solid #1e3a5c;
+	background-color: transparent;
+}
+
+.card-custom .card-title {
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.card-custom .card-body {
+	padding: 1.5rem;
+}
+
+.dropdown-ellipses.dropdown-toggle::after {
+	content: none;
+}
+
+.dropdown-menu {
+	color: #fff;
+	background-color: #152e4d;
+	border: 1px solid #12263f;
+}
+
+.dropdown-menu a.dropdown-item {
+	font-size: 15px;
+	background-color: transparent;
+	color: #6e84a3;
+	padding: 0.375rem 1.5rem;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+	color: #fff;
+}
+
+.text-post {
+	color: #fff;
+	line-height: 28px;
+	font-size: 0.9rem;
+	margin-bottom: 0.75rem;
+}
+
+.form-custom .form-control {
+	border-color: #1e3a5c;
+	background-color: #1e3a5c;
+	color: #fff;
+}
+
+.badge.badge-soft-secondary {
+	color: #6e84a3;
+	background-color: #243953;
+}
+
+/* end components */
